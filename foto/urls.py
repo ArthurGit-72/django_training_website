@@ -15,7 +15,11 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
-
+#from .views import first_page # указываем по какому пути находится приложение
+from crm import views
 urlpatterns = [
     path('admin/', admin.site.urls),
+    path('', views.first_page)
+    #path('', first_page), # пустой путь(быдет написано сражу после имени домена)
+
 ]
