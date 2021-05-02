@@ -1,0 +1,11 @@
+Бот для отправки заказов
+
+otpravkazakazovart_bot
+
+Use this token to access the HTTP API:
+1754059008:AAFJoCwsoRcpjOmn3Lq5QwQODlXFeLY7kVY
+
+
+чат айди группы: -536512127
+Ниже запрос к апи телеграмма:
+https://api.telegram.org/bot1754059008:AAFJoCwsoRcpjOmn3Lq5QwQODlXFeLY7kVY/sendMessage?chat_id=-536512127&text=тест
